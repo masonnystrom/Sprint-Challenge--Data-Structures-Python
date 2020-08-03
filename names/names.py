@@ -18,7 +18,11 @@ duplicates = []  # Return the list of duplicates in this data structure
 #     for name_2 in names_2:
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
+
 # 9 seconds on my comp
+
+
+""" The above code has a runtime of Polynomial or O(n^2)"""
 
 bst = BSTNode("main")
 for name_1 in names_1:
